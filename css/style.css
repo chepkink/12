@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap');
+
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: red;
+    
+}
+
+.header {
+   width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.header__wrapper {
+    margin-left: 480px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    
+}
+
+.nav__link {
+    margin-left: 180px;
+    margin-right: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.intro {
+    background: url(../img/intro_bg.svg);
+}
+
+.intro__content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro_block {
+    
+}
+
+.intro__title {
+   margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    
+}
+
+
+
+.info {
+    
+   transform: translateY(-20%);
+    margin-left: 500px;
+    
+    
+}
+
+.info__wrapper {
+    display: flex;
+    margin: 0 -10px;
+    
+}
+
+.info__block {
+    width: 33%;
+    padding: 0 10px;
+    
+}
+
+.info__item {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    padding: 40px 40px 30px;
+}
+
+.info__img {
+    margin-bottom: 20px;
+}
+
+.info__title {
+    font-size: 18px;
+}
+
+.info__text {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.block__title {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 240px;
+   
+    
+}
+
+.block__link {
+
+    margin-left: 240px;
+    color: black;
+    
+    
+}
+
+.service__item {
+    display: inline-block;
+    
+}
+
+.service__content {
+ height: 500px;  
+    background: url(../img/diagnostic.svg) no-repeat;
+    margin-left: 240px;
+}
+
+
+
+.service__img {
+    width: 100px;
+height: 100px;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    margin-top: 850px;
+}
+
+.service__text {
+    opacity: 0;
+}
+
+.service__title {
+    margin-left: 240px;
+    margin-top: 21px;
+    
+}
+
+.about {
+    padding: 115px 0;
+    background-color: black;
+    margin-top: 98px;
+    color: white;
+    
+}
+block__title.text-white {
+    color: white;
+}
+
+.about_wrapeer {
+    display: flex;
+}
+
+.about__block {
+    max-width: 505px;
+}
+
+.text {
+    font-weight: 600;
+    color: #B7B7B7;
+    margin: 40px 0;
+}
+
+.about__link {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.about__img {
+    margin-left: 650px;
+    margin-top: -400px;
+}
+
+.block__title {
+    margin-left: 40px;
+}
+
+.contacts {
+    padding: 100px 0;
+    background-color: blueviolet;
+}
+
+.contacts__form{
+    
+}
+
+form__row {
+     margin: 0 -20px;
+    display: flex;
+   
+}
+
+.form__group {
+    padding: 0 20px;
+    flex: 1;
+    
+}
